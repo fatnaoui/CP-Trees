@@ -16,5 +16,5 @@ There are three opertions you need to do:
   - n -> for building
   - log(n) -> for queries
   - log(n) -> for updating
-  ## Lazy Propagation
+## Lazy Propagation
   
