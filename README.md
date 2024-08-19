@@ -13,6 +13,6 @@ There are three opertions you need to do:
   
 - Update -> if you wanna update an element in the array that's will end up by doing a change in the tree, you can do that by using recursion
 - These three operations have in total (nlog(n)log(n)) in time comlexity
-- - n -> for building
+  - n -> for building
   - log(n) -> for queries
   - log(n) -> for updating
