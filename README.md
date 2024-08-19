@@ -29,4 +29,5 @@ These three operations have in total (nlog(n)log(n)) in time comlexity
 - What if we want to decrease the complexity of the search by optimizing k. Here comes the Lazy concept that keep track of the change without going deeper in log(k)*log(n) in time complexity [Update Using Lazy Propagation](https://github.com/fatnaoui/CP-Trees/blob/main/14-UpdatingRangeLazy.cpp)
 ### 2. Query Range:
 Here is the Query function added to the previous update function [Query Range Lazy](https://github.com/fatnaoui/CP-Trees/blob/main/15-QueryRangeLazy.cpp)
-  
+### 3. Sum Range:
+Here an exmple in how you can use this concept to find the sum in a range of multiple queries [Sum Range](https://github.com/fatnaoui/CP-Trees/blob/main/16-SumRangecpp.cpp)
