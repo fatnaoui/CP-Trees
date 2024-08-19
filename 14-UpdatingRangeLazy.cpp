@@ -1,18 +1,18 @@
-#include <iostream>
+#include <bits/stdc++.h>
 using namespace std;
 #define ll long long int
 
 ll lazy[1000] = {0};
 
-void BuildTree(ll *a,ll s,ll e,ll *tree,ll index){
+void BuildTree(ll *arr,ll s,ll e,ll *tree,ll index){
     if(s == e){
         tree[index] = arr[s];
         return ;
     }
     ll middle = (s + e)/2;
-    BuildTree(a,s,middle,tree,2*index);
-    BuildTree(a,middle+1,tree,2*index+1);
-    tree[index] = min(tree[2*index],tree[2*index+1])
+    BuildTree(arr,s,middle,tree,2*index);
+    BuildTree(arr,middle+1,e,tree,2*index+1);
+    tree[index] = min(tree[2*index],tree[2*index+1]);
     return ;
 }
 
@@ -46,6 +46,6 @@ void UpdateRangeLazy(ll s,ll e,ll l,ll r,ll *tree,ll inc,ll index){
 int main() {
     ll arr[] = {3,2,5,4,1};
     ll n = sizeof(arr)/sizeof(ll);
-    ll tree = new ll[4*n+1];
-    BuildTree(a,0,n-1,tree,1)
+    ll *tree = new ll[4*n+1];
+    BuildTree(arr,0,n-1,tree,1)
 }
