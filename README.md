@@ -26,5 +26,5 @@ These three operations have in total (nlog(n)log(n)) in time comlexity
 ### 1. Updating A Range:
 - When updating a point, it will take log(n) where n is the total number of the element
 - When updating a range of size k using update range in the previous code, it will take k*log(n)
-- What if we want to decrease the complexity of the search by optimizing k. Here comes the Lazy concept that keep track of the change without going deeper in log(k)*log(n) in time complexity
+- What if we want to decrease the complexity of the search by optimizing k. Here comes the Lazy concept that keep track of the change without going deeper in log(k)*log(n) in time complexity [Update Using Lazy Propagation](https://github.com/fatnaoui/CP-Trees/blob/main/14-UpdatingRangeLazy.cpp)
   
