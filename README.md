@@ -1,6 +1,6 @@
 # CP-Trees
-This a repo for solving CP problems related to Trees
 -------------------------------------------------------
+## Baics
 The segment trees is a data structure for range based queries + updates
 
 There are three opertions you need to do:
@@ -16,3 +16,5 @@ There are three opertions you need to do:
   - n -> for building
   - log(n) -> for queries
   - log(n) -> for updating
+  ## Lazy Propagation
+  
