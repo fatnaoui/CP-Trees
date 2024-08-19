@@ -11,7 +11,7 @@ There are three opertions you need to do:
   - no overlap -> when there is no intersection between the node range, then you return infinit, or 0 depends on the problem
   - Check the new code after adding the query function [Query code](https://github.com/fatnaoui/CP-Trees/blob/main/11-QueryTreeMIn.cpp)
   
-- Update -> if you wanna update an element in the array that's will end up by doing a change in the tree, you can do that by using recursion
+- Update -> if you wanna update an element in the array that's will end up by doing a change in the tree, you can do that by using recursion. Check the update implementation here [update function](https://github.com/fatnaoui/CP-Trees/blob/main/12-UpdateTreeMIn.cpp)
 - These three operations have in total (nlog(n)log(n)) in time comlexity
   - n -> for building
   - log(n) -> for queries
