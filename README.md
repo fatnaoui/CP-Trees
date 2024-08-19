@@ -9,5 +9,6 @@ There are three opertions you need to do:
   - complete overlap -> when the input range match the node range, then your return the node
   - partial overlap -> when you range is intersection with the code range, then you return (min,max ...) of both sides
   - no overlap -> when there is no intersection between the node range, then you return infinit, or 0 depends on the problem
+  - Check the new code after adding the query function [Query code](https://github.com/fatnaoui/CP-Trees/blob/main/11-QueryTreeMIn.cpp)
   
 - Update
